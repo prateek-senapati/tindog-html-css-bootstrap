@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background: white;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 8% 0;
+}
+
+/* Title Section */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 40px;
+    position: absolute;
+    right: 30%;
+}
+
+.title-heading {
+    text-align: left;
+}
+
+.image-box {
+    padding-left: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.title-container {
+    padding-bottom: 7%;
+}
+
+/* Features Section */
+
+.feature-heading {
+    font-size: 1.5rem;
+}
+
+.feature {
+    padding: 0 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 20px
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    position: relative;
+}
+
+/* Testimonials Section */
+
+#press {
+    background-color: #ef8172;
+    padding: 50px 0 100px;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-inner {
+    padding: 100px 240px;
+}
+
+.testimonial-text {
+    margin: auto auto 40px;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    height: 110px;
+    width: 110px;
+    margin: auto 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: auto 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-card {
+    padding: 45px 30px 0;
+}
+
+.card-header {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Call to Action Section */
+
+.cta-header {
+    color: white;
+    font-size: 3rem;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 80px;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    color: #8f8f8f;
+    padding: 80px 0 60px;
+}
+
+.footer-icon {
+    color: black;
+    margin: 0 10px;
+}
+
+.copyright {
+    margin-top: 16px;
+}
+
+/* Fine-tuning the website for improved responsiveness */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
